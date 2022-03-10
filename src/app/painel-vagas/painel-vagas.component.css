@@ -1,0 +1,22 @@
+.body-painel{
+    width: 100%;
+    background-color: rgba(0, 163, 155, 0.6);
+    margin: 0%;
+}
+
+.xtext{
+    color:bold; 
+    text-align: center;
+
+}
+
+.form{
+    text-align: center;
+}
+
+
+.labelx{
+    background-color:rgba(48, 78, 175, 0.6);
+    color: white;
+    width: 7.5%;
+}

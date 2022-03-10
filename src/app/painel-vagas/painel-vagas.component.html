@@ -1,0 +1,15 @@
+<section class="body-painel">
+<h2 class="xtext"><b>Cadastrar</b></h2>
+<form class="form">
+    <label class="labelx">Id</label><input type="text" name="id" (ngModule) = "vaga.id"><br>
+    <label class="labelx">Nome</label><input type="text" name="nome" (ngModule)  = "vaga.nome"><br>
+    <label class="labelx">Foto</label><input type="text" name="foto" (ngModule) = "vaga.foto"><br>
+    <label class="labelx">Descrição</label><input type="text" name="descricao" (ngModule)  = "vaga.descricao"><br>
+    <label class="labelx">Salário</label><input type="text" name="salario" (ngModule) = "vaga.salario"><br>
+    <button type="button" (click)="cadastrar()">Cadastrar vaga</button>
+
+    <button type="button" (click)="atualizar(vaga.id)">Atualizar vaga</button>
+    
+    <button type="button" (click)="excluir(vaga.id)">Excluir vaga</button>
+</form>
+</section>
